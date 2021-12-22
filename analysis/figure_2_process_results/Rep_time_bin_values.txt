@@ -1,0 +1,5 @@
+Rep_bin_1	12.4197
+Rep_bin_2	30.8908
+Rep_bin_3	49.9836
+Rep_bin_4	65.4342
+Rep_bin_5	78.3527

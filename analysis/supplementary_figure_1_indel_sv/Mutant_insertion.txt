@@ -1,0 +1,5 @@
+Sample	Small_Insertion
+TCGA-BT-A3PJ	1
+TCGA-DK-A1A7	5
+TCGA-FD-A3N5	5
+TCGA-FT-A3EE	3

@@ -1,0 +1,8 @@
+*bam
+*bigWig
+*bedgraph
+*bg
+*bw
+*bed
+/data/mutation_data/*
+/analysis/supplementary_figure_3_CBS_profiles/*/*
