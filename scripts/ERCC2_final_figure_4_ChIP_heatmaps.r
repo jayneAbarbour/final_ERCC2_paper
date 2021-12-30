@@ -11,11 +11,11 @@ XPB_ordered <- XPB %>% arrange(desc(X2_fwd_region), .by_group = TRUE)
 
 my.breaks <- c(seq(-5, 4, by=0.1)) 
 
-tiff("/home/jbarbour/final_ERCC2_paper/analysis/figure_4_XPD_ChIP/XPD_heatmap.tiff")
+tiff("/home/jbarbour/final_ERCC2_paper/analysis/figure_4_XPD_ChIP/XPD_heatmap.tiff", width = 1600, height = 1600)
 pheatmap(XPD_ordered, cluster_rows = FALSE, cluster_cols = FALSE, breaks = my.breaks, labels_row = "", labels_col = "")
 dev.off()
 
-tiff("/home/jbarbour/final_ERCC2_paper/analysis/figure_4_XPB_ChIP/XPB_heatmap.tiff")
+tiff("/home/jbarbour/final_ERCC2_paper/analysis/figure_4_XPB_ChIP/XPB_heatmap.tiff", width = 1600, height = 1600)
 pheatmap(XPB_ordered, cluster_rows = FALSE, cluster_cols = FALSE, breaks = my.breaks, labels_row = "", labels_col = "")
 dev.off()
 
